@@ -1,0 +1,84 @@
+.table {
+  /*display: flex;
+  flex-wrap: no-wrap;*/
+  width: 620px;
+  margin: 100px auto 0;
+}
+
+.table__tense {
+  width: 130px;
+  /*outline: 1px solid blue;*/
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+}
+.table__tense input {
+  width: 90%;
+  border: 1px solid;
+  padding: 5%;
+  text-align: center;
+}
+.reset {
+  font-size: 11px;
+  color: #444;
+  text-decoration: underline;
+  cursor: pointer;
+  /*padding: 4px;*/
+  position: absolute;
+  bottom: 4px;
+  left: 4px;
+}
+
+.hero td {
+  /*outline: 1px solid;*/
+  text-align: center;
+  vertical-align: middle;
+  font-size: 50px;
+  /*font-weight: bold;*/
+}
+.hero .arrows td {
+  font-size: 14px;
+}
+body, html {
+
+  font-family: Arial;
+}
+
+
+.avatar {
+  /*float: left;*/
+  /*width: 100px;*/
+  /*height: 100px;*/
+  position: absolute;
+      font-size: 100px;
+    /*border: 3px solid #eeaefd;*/
+    padding: 30px;
+    margin: 0;
+}
+
+.button-play  {
+      position: absolute;
+    left: 180px;
+    top: 60px;
+    background: none;
+    border: 4px solid black;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.table-container {
+  /*margin-left: -100px;*/
+  /*padding-left: 100px;*/
+  /*float: left;*/
+  /*width: 100%;*/
+  /*padding-top: 50px;*/
+}
+
+.herocontainer{
+
+}
+
+.hero {
+  margin: 0 auto;
+  width: 200px;
+}
