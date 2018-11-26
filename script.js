@@ -241,7 +241,7 @@ const randomSetFactory = (allSets, subSetLength) => {
   return () => {
     if (subSet.length === 0) return null;
     const index =  Math.floor(Math.random() * subSet.length);
-    return subSet.splice(index)[0];
+    return subSet.splice(index, 1)[0];
   }
 };
 
